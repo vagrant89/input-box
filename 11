@@ -1,0 +1,48 @@
+<table class="table-responsive">
+  <caption>请您按照以下步骤来定制您的纸箱</caption>
+  <tr>
+    <td colspan="6">选择箱型</td>
+  </tr>
+  <tr>
+    <td> <input type="radio" name="" value=""> <span>对口箱</span></td>
+    <td> <input type="radio" name="" value=""> <span>飞机盒</span></td>
+    <td> <input type="radio" name="" value=""> <span>天地盖</span></td>
+    <td></td>
+    <td></td>
+    <td>
+      <div class="dropdown">
+      <button type="button" name="button">查看详细 <img src="images/index_07.png" alt=""> </button>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="6">确定尺寸</td>
+  </tr>
+  <tr>
+    <td> <input type="radio" name="" value=""> <span>外径</span></td>
+    <td>长 <input class="number" type="number" name="" value="">mm  </td>
+    <td>宽 <input class="number" type="number" name="" value="">mm </td>
+    <td>高 <input class="number" type="number" name="" value="">mm </td>
+    <td></td>
+    <td>
+      <div class="dropdown">
+      <button type="button" name="button">查看详细 <img src="images/index_07.png" alt=""> </button>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="6">选择材料</td>
+  </tr>
+  <tr>
+    <td><input type="radio" name="" value=""> <span>三层A瓦优质</span></td>
+    <td><input type="radio" name="" value=""> <span>三层A瓦优质</span></td>
+    <td><input type="radio" name="" value=""> <span>三层A瓦优质</span></td>
+    <td><input type="radio" name="" value=""> <span>三层A瓦优质</span></td>
+    <td><input type="radio" name="" value=""> <span>三层A瓦优质</span></td>
+    <td>
+      <div class="dropdown">
+      <button type="button" name="button">查看详细 <img src="images/index_07.png" alt=""> </button>
+      </div>
+    </td>
+  </tr>
+</table>

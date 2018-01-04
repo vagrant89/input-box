@@ -1,0 +1,97 @@
+html{
+  font-size: 12px;
+}
+header{
+  background-color: #1d7ad9;
+  padding: 0rem 10%;
+}
+header a{
+  color: white;
+}
+header div{
+  display: inline-block;
+}
+header .pullRight{
+  float: right;
+}
+header .register{
+  background-color: white;
+}
+header .register a{
+  color: black;
+}
+.banner{
+  height: 4rem;
+  width: 100%;
+  margin: 0;
+  background-color: #f3f3f3;
+}
+.container{
+  border: 1px solid #e7e7e7;
+}
+.container button{
+  background-color: white;
+  border: 1px solid #e8e8e8;
+}
+.explain{
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.explain div{
+  border-left: 3px solid #1d7ad9;
+  line-height: 0;
+}
+.col-sm-3, .col-sm-2:not(.wrap){
+  white-space: nowrap;
+}
+.number{
+  width:70%;
+}
+.title{
+  background-color: #f3f3f3 !important;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+p{
+  margin: 0;
+  padding: .5rem;
+}
+.row{
+  padding: .5rem;
+  background-color: #fbfcff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+div{
+  margin:0.1rem;
+}
+.borderBottom{
+  border-bottom: 1px solid #e7e7e7;
+}
+.colh-sm-3{
+  /* display: table; */
+}
+.dropdown{
+  display: table-cell;
+  vertical-align: middle;
+}
+.next{
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+.nextbtn{
+  height: 2rem;
+  background-color: #e15053;
+  width: 5rem;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 5px;
+  position: relative;
+  top: 40%;
+  border: none;
+}
+a{
+  text-decoration: none;
+}
