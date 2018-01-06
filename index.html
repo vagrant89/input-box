@@ -12,7 +12,7 @@
       <div class="tel">
         <a href="#">客服热线：010-594-78634</a>
       </div>
-      <div class="pullRight">
+      <div class="float-right">
         <div class="login">
           <a href="#">登陆</a>
         </div>
@@ -21,25 +21,61 @@
         </div>
       </div>
     </header>
-    <body>
+    <main>
       <div class="banner">
-        <div class="navbar float-right">
+        <div style="clear:both"></div>
+        <div class=" navbar float-right">
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link active" href="#">首页</a>
+              <a class="nav-link active" href="">首页</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">在线定制</a>
+              <a class="nav-link" href="">在线定制</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">标准箱</a>
+              <a class="nav-link" href="">标准箱</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">品质保障</a>
+              <a class="nav-link" href="">品质保障</a>
             </li>
           </ul>
         </div>
       </div>
+      <div class="progressBar">
+        <div class="proressBox currentProgress ">
+          <div class="numbers currentProgress">
+            1
+          </div>
+          <div class="step currentStep">
+            1.定制纸箱
+          </div>
+        </div>
+        <div class=" proressBox">
+          <div class="numbers">
+            2
+          </div>
+          <div class="step">
+            2.选择数量
+          </div>
+        </div>
+        <div class=" proressBox">
+          <div class="numbers">
+            3
+          </div>
+          <div class="step">
+            3.上传附件
+          </div>
+        </div>
+        <div class=" proressBox">
+          <div class="numbers">
+            4
+          </div>
+          <div class="step">
+            4.确认下单
+          </div>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
       <div class="container explain">
         <div class="row">
           请您按照以下步骤来定制您的纸箱
@@ -65,8 +101,17 @@
             </div>
           </div>
           <div class="colh-sm-3">
-            <div class="dropdown">
-            <button type="button" name="button">查看详细 <img src="images/index_07.png" alt=""> </button>
+            <div class="btn-group">
+              <button class="btn  btn-sm backgroundWhite" type="button">
+                查看详细
+              </button>
+              <button type="button" class="btn btn-sm  btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
             </div>
           </div>
         </div>
@@ -105,24 +150,40 @@
             </div>
           </div>
           <div class="colh-sm-3">
-            <div class="dropdown">
-            <button type="button" name="button">查看详细 <img src="images/index_07.png" alt=""> </button>
-            </div>
+            <table>
+              <tr>
+                <td class="align-middle">
+                  <div class="btn-group">
+                    <button class="btn  btn-sm backgroundWhite" type="button">
+                      查看详细
+                    </button>
+                    <button type="button" class="btn btn-sm  btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
         <div class="row title">
           <p>选择材料</p>
         </div>
+
         <div class="row borderBottom">
           <div class="col-sm-9">
             <div class="row">
-              <div class="col-sm-2 wrap">
+              <div class="col-sm-2  wrap">
                 <input type="radio" name="" value=""> <span>三层A瓦优质</span>
               </div>
-              <div class="col-sm-2 wrap">
+              <div class="col-sm-2  wrap">
                 <input type="radio" name="" value=""> <span>三层A瓦优质</span>
               </div>
-              <div class="col-sm-2 wrap">
+              <div class="col-sm-2  wrap">
                 <input type="radio" name="" value=""> <span>三层A瓦优质</span>
               </div>
               <div class="col-sm-2 wrap">
@@ -134,8 +195,17 @@
             </div>
           </div>
           <div class="colh-sm-3">
-            <div class="dropdown">
-            <button type="button" name="button">查看详细 <img src="images/index_07.png" alt=""> </button>
+            <div class="btn-group">
+              <button class="btn  btn-sm backgroundWhite" type="button">
+                查看详细
+              </button>
+              <button type="button" class="btn btn-sm  btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
             </div>
           </div>
         </div>
@@ -146,7 +216,47 @@
 
 
       </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    </main>
+    <footer>
+      <div class="container footerContainer">
+        <div class="row footer">
+          <div class="col-sm-4">
+            <span>  51包装网— 纸箱包装首选服务平台</span>
+          </div>
+          <div class="col-sm-3">
+            <table>
+              <tr>
+                <td> <a href="#">   关于我们 </a> </td>
+                <td> <a href="#">   配送流程 </a> </td>
+                <td> <a href="#">   联系我们 </a> </td>
+              </tr>
+              <tr>
+                <td> <a href="#">   下单指南 </a> </td>
+                <td> <a href="#">   媒体介绍 </a> </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-sm-5">
+            <table class="float-right">
+              <tr>
+                <td> <a href="tel:1234567">   TEL：400-0000-000 </a> </td>
+                <td rowspan="3"> <img src="images/index_22.png" alt=""> </td>
+              </tr>
+              <tr>
+                <td> <a href="#">     企业QQ：123456789 </a> </td>
+              </tr>
+              <tr>
+                <td> <a href="#">       微信号：XXXXXXX </a> </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>  北京五一包装科技有限公司Copyright ©2015 </span>
+      </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   </body>
