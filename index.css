@@ -12,8 +12,8 @@ header a{
 header div{
   display: inline-block;
 }
-header .pullRight{
-  float: right;
+header .login{
+  border-left: 1px solid white;
 }
 header .register{
   background-color: white;
