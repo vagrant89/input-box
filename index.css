@@ -1,6 +1,5 @@
 html{
   font-size: 12px;
-
 }
 header{
   background-color: #1d7ad9;
@@ -26,6 +25,9 @@ header .register a{
   height: 4rem;
   margin: 0;
   background-color: #f3f3f3;
+}
+.banner .nav-item .active{
+  background-color: #1d7ad9;
 }
 @media (max-width:457px) {
   .banner{
@@ -53,11 +55,16 @@ header .register a{
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-.progressBar a{
-  float: left;
-  width: 10px;
+.progressBar a:hover  .step{
+  background-color: blue !important;
 }
-.proressBox{
+.progressBar a:hover .progressBox{
+  background-color: blue !important;
+}
+.progressBar a:hover .numbers{
+  background-color: blue !important;
+}
+.progressBox{
   color: white;
   float: left;
   width: 25%;
@@ -69,7 +76,7 @@ header .register a{
 .currentProgress{
   background-color: #ff7f02 !important;
 }
-.proressBox .numbers{
+.progressBox .numbers{
   background-color:#cccccc;
   width: 1.5rem;
   height: 1.5rem;
@@ -80,21 +87,37 @@ header .register a{
   position: relative;
   top: -.5rem;
 }
-.proressBox .step{
+.progressBox .step{
   color: #cccccc;
 }
 .currentStep{
   color:  #ff7f02 !important;
 }
+.progressBox
 .container{
   border: 1px solid #e7e7e7;
 }
-.container .btn-group{
-  padding: .3rem;
-  border: 1px solid #e8e8e8;
-}
 .container .backgroundWhite{
   background-color: white;
+}
+/* .container .more{
+  border: 1px solid #b0b0b0;
+  padding-right: 0.3rem;
+} */
+.container select{
+  color: #b0b0b0;
+  border: 1px solid #b0b0b0;
+  height: 2.5rem;
+  padding-right: 2rem;
+  padding-left: 0.5rem;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url('images/index_07.png') no-repeat right ;
+  background-size: 1.5rem;
+}
+select::-ms-expand {
+  display: none;
 }
 .explain{
   border: none;
